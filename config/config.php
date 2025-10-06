@@ -1,13 +1,13 @@
 <?php
 $configDB = array();
-$configDB["host"] 		= "localhost";
+$configDB["host"] 		= "tan.mysql.database.azure.com";
 $configDB["database"]	= "computer_store";
-$configDB["username"] 	= "root";
-$configDB["password"] 	= "";
-define("HOST", "localhost");
+$configDB["username"] 	= "trongtan";
+$configDB["password"] 	= "Tan2005@";
+define("HOST", "tan.mysql.database.azure.com");
 define("DB_NAME", "computer_store");
-define("DB_USER", "root");
-define("DB_PASS", "");
+define("DB_USER", "trongtan");
+define("DB_PASS", "Tan2005@");
 define('ROOT', dirname(dirname(__FILE__) ) );
 //Thu muc tuyet doi truoc cua config; c:/wamp/www/lab/
 define("BASE_URL", "http://".$_SERVER['SERVER_NAME']);//dia chi website
